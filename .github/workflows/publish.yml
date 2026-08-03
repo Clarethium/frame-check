@@ -92,7 +92,7 @@ jobs:
         with:
           fetch-depth: 0  # Full history for git-sha baking
 
-      - uses: actions/setup-python@v6
+      - uses: actions/setup-python@v7
         with:
           python-version: '3.12'
 
